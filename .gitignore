@@ -1,0 +1,11 @@
+# macOS metadata
+.DS_Store
+._*
+__MACOSX/
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
