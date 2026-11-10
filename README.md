@@ -19,9 +19,17 @@
 
 ## 安装
 
-在 DeepSeek Harness 的插件管理页安装本地插件包，选择本仓库根目录。也可以让 Harness 助手安装此目录；插件包入口为 `package.json` 中的 `dsh.bundle.patch`。
+在 DeepSeek Harness 的插件管理页输入以下 GitHub 地址并安装：
+
+```text
+https://github.com/YunchiWu/zotero.git
+```
+
+也可以安装本地插件包，选择本仓库根目录。插件包入口为 `package.json` 中的 `dsh.bundle.patch`。
 
 安装后，插件会向 Harness 注册名为 `zotero` 的全局技能。新会话会自动发现它，也可以输入 `/zotero` 显式调用。
+
+如果同一个插件版本曾从其他目录安装，切换安装来源后建议重启 DeepSeek Harness，以清除运行进程缓存的旧模块和元数据路径；发布新版本后重新安装也会触发刷新。
 
 ## 使用示例
 
