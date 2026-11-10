@@ -1,6 +1,6 @@
 {
-  "name": "@yunchiwu/zotero-deepseek-harness",
-  "version": "0.2.1",
+  "name": "@yunchiwu/zotero-harness",
+  "version": "0.3.0",
   "private": true,
   "description": "Use a local Zotero Desktop library from DeepSeek Harness: search, export BibTeX, insert citations, read indexed text, and import references.",
   "type": "module",
