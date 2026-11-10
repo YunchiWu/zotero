@@ -711,7 +711,7 @@ def cmd_import_records(args: argparse.Namespace, kind: str) -> None:
     if not text:
         exit_with("Provide --file or --text")
 
-    session = args.session or f"codex-{uuid.uuid4().hex}"
+    session = args.session or f"deepseek-harness-{uuid.uuid4().hex}"
     path = f"/connector/import?{query({'session': session})}"
     response = require_ok(connector_post(path, text, content_type="text/plain"), f"POST {path}")
     dump_json({"status": response.status, "session": session, "response": parse_body(response)})

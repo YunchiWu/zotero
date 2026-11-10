@@ -1,0 +1,3 @@
+- insert:
+    - id: zotero-deepseek-harness
+      name: '@yunchiwu/zotero-deepseek-harness'
